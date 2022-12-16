@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Noto+Sans:wght@200&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    border: 1px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #DEF7DE;
+    width: 100%;
+    height: 100%;
+}
+
+#PG,
+li>a {
+    color: #1a7336;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+
+/* 좌측 상단 필굿 로고 부분 */
+
+header {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 1.2rem;
+    color: rgba(0, 128, 0);
+}
+
+header>p {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#gnb {
+    display: flex;
+}
+
+#gnb>li {
+    list-style-type: none;
+    margin-left: 1.5rem;
+}
+
+
+/* 메누 글씨 */
+
+#gnb>li>a {
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding-bottom: 5px;
+}
+
+
+/* 현재 메뉴 표시 바 */
+
+#gnb>li:nth-child(3)>a {
+    border-bottom: 2px solid green;
+}
+
+
+/* 마우스 커서 접근 시 표시 바 */
+
+#gnb>li>a:hover {
+    border-bottom: 2px solid gray;
+}
+
+@media screen and(max-width:800px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+section {
+    font-family: 'Noto Sans KR', sans-serif;
+    max-width: 1500px;
+    height: auto;
+    margin-top: 150px;
+}
+
+ul.tabs {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 100px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul.tabs li {
+    background: none;
+    color: green;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+ul.tabs li.current {
+    background: rgb(112, 187, 114);
+    color: white;
+}
+
+.tab-content {
+    display: none;
+    background: rgb(112, 187, 114);
+    padding: 15px 0;
+}
+
+.tab-content.current {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tab-content.current>div>h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 12px;
+}
+
+.tab-content.current>div>p {
+    font-size: 16px;
+    font-weight: lighter;
+    margin-left: 12px;
+}
+
+img {
+    width: 360px;
+    height: 360px;
+    background-color: white;
+    margin-left: 12px;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 210px;
+}
+
+.Foo {
+    color: rgb(90, 90, 90);
+}
+
+#Git {
+    color: rgb(112, 187, 114);
+    text-decoration: none;
+}
+
+#PD {
+    color: rgb(112, 187, 114);
+    text-decoration: none;
+}

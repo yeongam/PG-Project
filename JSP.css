@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 1px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #DEF7DE;
+    width: 100%;
+    height: 100%;
+}
+
+#PG,
+#gnb>li>a {
+    color: green;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.Fr {
+    font-family: "Noto Sans KR" sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#opt {
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-right: 6px;
+}
+
+#opt li {
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #777;
+}
+
+#opt li a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: #777;
+}
+
+.Se {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    color: green;
+}
+
+.Se>p {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#gnb {
+    display: flex;
+}
+
+#gnb>li {
+    list-style-type: none;
+    margin-left: 1.5rem;
+}
+
+#gnb>li>a {
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding-bottom: 5px;
+}
+
+#gnb>li:first-child>a {
+    border-bottom: 2px solid green;
+}
+
+#gnb>li>a:hover {
+    border-bottom: 2px solid gray;
+}
+
+@media screen and (max-width:800px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+.IS {
+    font-family: 'Noto Sans KR', sans-serif;
+    padding: 0.3rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.IS img {
+    width: 1200px;
+    height: auto;
+    padding-top: 70px;
+    vertical-align: middle;
+}
+
+.IS a {
+    display: block;
+    color: green;
+    border: 1px solid green;
+    width: 1200px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 30px;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+#products {
+    font-family: 'Roboto', sans-serif;
+    color: green;
+    margin-top: 30px;
+    padding: 1.2rem;
+    border-top: 12px solid #F2F2F2;
+    border-top-color: rgb(255, 255, 255);
+}
+
+#products>h2 {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.product-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-flex>div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+    margin-left: 50px;
+}
+
+.product-flex>div>img {
+    width: 280px;
+    height: 280px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.product-flex>div>h3 {
+    vertical-align: baseline;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: gray;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 3px 0;
+}
+
+.product-flex>div>p {
+    vertical-align: baseline;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: gray;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+#Scroll-Top>img {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 12px;
+    font: 12px/100% Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 1s;
+}
+
+#Scroll-Top>img:hover {
+    background-color: #777;
+}
+
+.ev {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.ev .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+
+.ev .letter {
+    transform-origin: 0 100%;
+    display: inline-block;
+    line-height: 1em;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.Foo {
+    color: rgb(90, 90, 90);
+}
+
+#Git {
+    color: rgb(112, 187, 114);
+    text-decoration: none;
+}
+
+#PD {
+    color: rgb(112, 187, 114);
+    text-decoration: none;
+}

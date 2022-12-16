@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- Notosans -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Noto+Sans:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- Notosans KR-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- Roboto-->
+    <link rel="stylesheet" href="./JSPG.css" />
+    <script type="text/javascript" defer src="./JSPG.js"></script>
+    <title> 영양제 맞추기 게임</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <p>PillGood</p>
+            <ul>
+                <li><a href="JSP.html">HOME</a></li>
+                <li><a href="JSPR.html">RECOMMEND</a></li>
+                <li><a href="JSPIN.html">CATEGORY</a></li>
+                <li><a href="JSPG.html">GAME</a></li>
+            </ul>
+        </header>
+
+        <div class="container_1">
+            <div class="row">
+                <div class="column" onclick="flip(0)"></div>
+                <div class="column" onclick="flip(1)"></div>
+                <div class="column" onclick="flip(2)"></div>
+                <div class="column" onclick="flip(3)"></div>
+            </div>
+            <div class="row">
+                <div class="column" onclick="flip(4)"></div>
+                <div class="column" onclick="flip(5)"></div>
+                <div class="column" onclick="flip(6)"></div>
+                <div class="column" onclick="flip(7)"></div>
+            </div>
+            <div class="row">
+                <div class="column" onclick="flip(8)"></div>
+                <div class="column" onclick="flip(9)"></div>
+                <div class="column" onclick="flip(10)"></div>
+                <div class="column" onclick="flip(11)"></div>
+            </div>
+        </div>
+    </div>
+    <div class="btn-wrap" style="position: absolute; top: 830px; left: 882px;">
+        <button type="=button" class="startBtn" onclick="gameStart();">Start</button>
+        <button type="=button" class="resetBtn" onclick="gameReset();">Reset</button>
+    </div>
+    </div>
+</body>
+
+</html>

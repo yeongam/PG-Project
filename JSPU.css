@@ -1,0 +1,132 @@
+body {
+    background-color: white;
+    margin: 100%;
+    color: #262626;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #262626;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 700px;
+    top: 39%;
+    left: 50%;
+    margin: -240px 20px 20px -240px;
+    background-color: white;
+}
+
+header {
+    margin: 100px 0 100px 0;
+    color: #02b12e;
+    font-family: 'Roboto-bold';
+    font-size: 50px;
+    font-weight: 100px;
+    margin-top: 55px;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    margin-top: 0px;
+}
+
+.login_text {
+    width: 92%;
+    height: 60px;
+    margin: 3px 0 3px 0;
+    padding: 0 10px 0 10px;
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+
+.login_text:focus {
+    outline: 1px solid #02b12e;
+}
+
+.login_text::placeholder {
+    color: #477a50;
+}
+
+.login_text {
+    color: #262626;
+}
+
+.login_btn {
+    width: 100%;
+    height: 50px;
+    margin: 10px 0 5px 0;
+    color: white;
+    background-color: #c0fdc5;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login_bottom {
+    margin-top: 65px;
+    color: #0dca6c;
+    font-size: 13px;
+}
+
+.login_bottom:hover {
+    border-bottom: 2px solid rgb(3, 75, 3);
+}
+
+.login_app {
+    width: 100%;
+    height: 50px;
+    margin: 10px 0 5px 0;
+    color: white;
+    background-color: #000000;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 45px;
+    border: 1px solid #000000;
+    font-family: sans-serif;
+}
+
+.login_nav {
+    width: 100%;
+    height: 50px;
+    margin: 10px 0 5px 0;
+    color: white;
+    background-color: #42f742;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #42f742;
+    font-family: sans-serif;
+}
+
+.login_kak {
+    width: 100%;
+    height: 50px;
+    margin: 10px 0 5px 0;
+    color: rgb(0, 0, 0);
+    background-color: #e9f72f;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #e9f72f;
+    font-family: sans-serif;
+}
